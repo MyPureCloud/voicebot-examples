@@ -1,0 +1,16 @@
+{
+  "name": "dialogflow-fulfillment",
+  "version": "1.0.0",
+  "description": "Dialogflow fulfillment webhook using AWS lambda and API gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Atomic Tangerine",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "purecloud-platform-client-v2": "^74.0.0",
+    "request": "^2.88.0"
+  }
+}
