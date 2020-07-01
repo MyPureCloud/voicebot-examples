@@ -1,5 +1,5 @@
 {
-  "name": "dialogflow-fulfillment",
+  "name": "dialogflow-fulfillment-aws-lambda",
   "version": "1.0.0",
   "description": "Dialogflow fulfillment webhook using AWS lambda and API gateway",
   "main": "index.js",
