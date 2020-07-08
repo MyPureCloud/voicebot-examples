@@ -1,4 +1,4 @@
-# oogle Cloud Function with No Input Example
+# Google Cloud Function with No Input Example
 
 ## Instructions
 
