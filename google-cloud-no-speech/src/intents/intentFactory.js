@@ -11,7 +11,7 @@ const defaultIntentHandler = new DefaultIntentHandler();
 
 function getIntentHandler(request) {
     for (let index = 0; index < intentHandlers.length; index++) {
-        let intentHandler = intentHandlers[index];
+        const intentHandler = intentHandlers[index];
 
         if (intentHandler.canHandle(request)) {
             return intentHandler;
