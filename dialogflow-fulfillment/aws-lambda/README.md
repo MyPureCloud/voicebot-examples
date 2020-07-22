@@ -1,4 +1,4 @@
-# AWS Lambda Dialogflow Fulfillment with the PureCloud Platform Client SDK
+# AWS Lambda Dialogflow Fulfillment with the Genesys Cloud Platform Client SDK
 
 ## Instructions
 
@@ -18,9 +18,9 @@ https://docs.aws.amazon.com/lambda/latest/dg/nodejs-package.html#nodejs-package-
 
 - Take a note of the invoke Url for the following step 5.
 
-### 3. Configure an Oauth Client for Dialogflow and roles/permissions in PureCloud.
+### 3. Configure an Oauth Client for Dialogflow and roles/permissions in Genesys Cloud.
 
-- Configure a Oauth Client for Dialogflow (Client Credentials grant type).
+- Configure an Oauth Client for Dialogflow (Client Credentials grant type).
 Please refer to the following url for more details.
 https://help.mypurecloud.com/articles/configure-the-oauth-client-credential-for-google-dialogflow/
 
@@ -32,7 +32,7 @@ https://help.mypurecloud.com/articles/configure-the-oauth-client-credential-for-
  >  https://help.mypurecloud.com/articles/add-roles/
  >  https://help.mypurecloud.com/articles/manage-roles-and-permissions-page/
 
-- Verify the custom role enabled in the Roles tab of the Oauth Client in PureCloud.
+- Verify the custom role enabled in the Roles tab of the Oauth Client in Genesys Cloud.
 
 ### 4. Configure Nodejs Environment variables for Lambdas.
 
@@ -83,9 +83,9 @@ https://cloud.google.com/dialogflow/docs/fulfillment-webhook#enable
 https://help.mypurecloud.com/articles/import-export-call-flow/
 
 ### 7. Test
-  Testing read/write participant information via `Calls` menu in PureCloud.
+  Testing read/write participant information via `Calls` menu in Genesys Cloud.
 
-- Log in PureCloud.
+- Log in Genesys Cloud.
 - Make a call with `Dialogflow-Fulfillment@localhost` in the Dialpad UI.
 - Press 1 at the main menu. You will hear "Good day! What can I do for you today?"
 - Say "Read write participant information".

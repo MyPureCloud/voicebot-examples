@@ -19,7 +19,7 @@ const {
  * Get CLIENT_ID, CLIENT_SECRET, ENVIRONMENT from Nodejs Environment Variables.
  *
  * You can get the both values after creating an Oauth client following the instruction below.
- *   PureCloud Oauth Client Credentials grant type:
+ *   Genesys Cloud Oauth Client Credentials grant type:
  *   https://help.mypurecloud.com/articles/create-an-oauth-client/
  */
 const CLIENT_ID = process.env.CLIENT_ID;
